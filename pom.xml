@@ -7,7 +7,7 @@
     <groupId>com.huanx.hpe</groupId>
     <artifactId>test-nexus3</artifactId>
     <version>1.1-RELEASE</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <distributionManagement>
         <repository>
             <id>maven-releases</id>
