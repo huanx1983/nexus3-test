@@ -3,6 +3,7 @@ pipeline {
     agent any
     stages {
 
+        def a='123'
         stage('checkenv'){
 
             steps (){
