@@ -1,8 +1,8 @@
 node {
+        def a='123'
 
     stages {
 
-        def a='123'
         stage('checkenv'){
 
             steps (){
