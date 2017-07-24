@@ -35,7 +35,8 @@ pipeline {
 
                     steps (){
                         sh 'mvn package docker:build'
-                        sh 'docker login 15.114.100.2:5001 -u admin -p admin123 & docker push 15.114.100.2:5001/nexus3-test'
+                        sh 'docker login 15.114.100.2:5001 -u admin -p admin123'
+                        sh 'docker push 15.114.100.2:5001/nexus3-test'
 
                     }
 
