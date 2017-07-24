@@ -35,13 +35,9 @@ pipeline {
              nexusArtifactUploader artifacts: [[artifactId: 'nexus3-test', type: 'jar', file: 'target/nexus3-test-1.1-SNAPSHOT.jar']], credentialsId: 'nexus3', groupId: 'com.huanx.hpe', nexusUrl: '15.114.100.2:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'maven-snapshots', version: '1.1-SNAPSHOT'
 
             }
-
-
         }
 
-        stage('docker') {
 
-        }
     }
 }
 
