@@ -36,12 +36,12 @@ pipeline {
 
             }
 
-            steps(){
 
-            }
         }
 
+        stage('docker') {
 
+        }
     }
 }
 
